@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+
+}
+.navbar{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: raleway,sans-serif;
+}
+
+.navbar h1{
+    width: 20%;
+    height: 85%;
+
+    
+}
+
+li{
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.menus{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+    
+}
+
+.holddiv{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: montserrat,sans-serif;
+}
+.na{
+    font-size: 40px;
+}
+    
+.subdiv{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assests/6bf39fde381ce7033ee064ef77f0a42f-removebg-preview-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+    
+} 
+.buttonholder{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 20px;
+    font-family: "raleway",sans-serif;
+
+}
+
+.buttonholder button{
+    padding: 10px;
+    background-color: red;
+    font-family: "raleway",sans-serif;
+
+}
+
+
+.ab{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-family: "open sans",sans-serif;  
+
+}
+.icon{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.para{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    
+}
+.leftdiv{
+    width: 35%;
+    height: 100%;
+    background-color: white;
+}
+.myself{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+    font-family: "open sans",sans-serif;
+}
+.name{
+    width: 100%;
+    height: 43%;
+    display: flex;
+    background-color: white;
+    line-height: 40px;
+    font-family: "open sans",sans-serif;
+    
+}
+
+
+.rightdiv{ 
+    width: 35%;
+    height: 85%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 20px; 
+}
+.logo{
+    width:100%;
+    height:80%;
+    font-size: 40px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+.logocontent{
+    text-align: center;
+    font-family: "open sans",sans-serif;
+}
+.logo:hover{
+    opacity: 0.5;
+}
