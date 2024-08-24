@@ -10,22 +10,22 @@
 <body>
     <div class="navbar">
         <div class="open">
-            <h1>Biobo</h1>
+            <div class="openhead">
+                <h1>Biobo</h1>
+            </div>
+            <div class="menus">
+                <a href="#home"><li>Home</li></a>
+                <a href="#about me"><li>About Me</li></a> 
+               <a href="#my skills"><li>Myskills</li></a>
+               <a href="#my portfolio"><li>My Portfolio</li></a>
+                <a href="#contact"><li>Contact</li></a>       
+              
+             </div>
+
         </div>
         
-        <div class="menus">
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Myskills</li>
-            <li>MyPortfolio</li>
-            <li>Testimonials</li>
-            <li>latest News</li>
-            <li>Contect Me</li>
-         </div>
-
-        
     </div>
-    <div class="subdiv">
+    <div class="subdiv" id="home">
        <div class="holddiv"> 
         <h1>Hello ! <br> I am Front End Developer</h1>
         
@@ -34,19 +34,15 @@
         
         
         <div class="buttonholder">
-            <button>Contact Me</button>
-            <button>Download My C.V</button>
+            <button class="button1">Contact Me</button>
+            <button class="button2">Download My C.V</button>
         </div>
-        
-    
     </div> 
+    <img src="./assests/img4.jpg" alt="">
     
        </div>
-    <div class="ab">
-        <h1>About Me</h1>
-        <br>
-        <div class="icon"><i class="fa-solid fa-code"></i>
-        </div> 
+    <div class="ab" id="about me">
+        <h1>About Me</h1> 
     </div>
     <div class="para">
         <div class="leftdiv">
@@ -61,11 +57,11 @@
          </ul>  
             <ul class="details">
 
-                <li>: Smith Robert</li>
-                <li>: 30</li>
-                <li>: Alexandria / Egypt</li>
-                <li>: 01222255544</li>
-                <li>: smithinfo@gmail.com</li>
+                <li>: Vijaya raghavan</li>
+                <li>: 25</li>
+                <li>: Virudhunagar / Sivakasi</li>
+                <li>: 9500309836</li>
+                <li>: vijayaraghavan1552000@gmail.com</li>
             </ul>
           
 
@@ -75,7 +71,11 @@
         <div class="rightdiv">
             <div class="logocontent">
                 <div class="logo">
-                    <i class="fa-regular fa-file-code"></i>
+                    
+
+                        <i class="fa-regular fa-file-code"></i>
+                    
+                    
                 </div>
                 <p>PHP Code</p>
             </div>
@@ -95,7 +95,7 @@
                 <div class="logo">
                     <i class="fa-brands fa-html5"></i>
                 </div>
-                 <p>HDML5</p>
+                 <p>HTML5</p>
             </div>
             <div class="logocontent">
                 <div class="logo">
@@ -109,11 +109,178 @@
                 </div>
                 <p>Css3</p>
 
+            </div> 
+        </div>
+    </div> 
+    <div class="container" id="my skills">
+        <div class="fullcontainer">
+
+            <div class="heading">
+
+                <h2>My Skills</h2>
+
             </div>
            
-          
-           
+            <div class="leftcontainer">
+                <div class="parent">
+                    <div class="skill">
+                        <h3 class="box">HTML</h3>
+                        <h2 class="percentage1">85%</h2>
+                    </div>
+                    <div class="skillpercentage">
+                        <div class="smalldiv1"></div>
+                    </div>
+                </div>
+                
+                    <div class="parent">
+                        <div class="skill">
+                            <h3 class="box">JQUERY</h3>
+                            <h2 class="percentage2">90%</h2>
+                        </div>
+                        <div class="skillpercentage">
+                            <div class="smalldiv2"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="parent">
+                        <div class="skill">
+                            <h3 class="box">PHP</h3>
+                            <h2 class="percentage3">95%</h2>
+                        </div>
+                        <div class="skillpercentage">
+                            <div class="smalldiv3"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="parent">
+            
+                        <div class="skill">
+                            <h3 class="box">CSS3</h3>
+                            <h2 class="percentage4">75%</h2>
+                        </div>
+                        <div class="skillpercentage">
+                            <div class="smalldiv4"></div>
+                        </div>
+                    </div>
+                </div>
         </div>
+        </div>
+
+        <div class="myport" id="my portfolio">
+            <h1>My Portfolio</h1>
+        </div>
+        <div class="op">
+            <div class="options">
+                <li>All</li>
+                <li>Web Design</li>
+                <li>Logos</li>
+                <li>Apps</li>
+                <li>Graphic</li>
+            </div>    
+        </div>
+        <div class="gridparent">
+        <div class="figcaption">
+            <div class="project">
+                <img class="projectimg" src="./assests/web 1.jpg" alt="">
+                <div class="proname">
+                    <h3>Project Name</h3>
+                    <p>Web Design</p>
+                </div>
+               
+            </div>
+                
+            <div class="project">
+                <img class="projectimg" src="./assests/logo2.jpg" alt="">
+                <div class="proname">
+                    <h3>Project Name</h3>
+                    <p>Logo</p>
+                </div>    
+            </div>
+            
+            <div class="project">
+                <img class="projectimg" src="./assests/apps3.jpg" alt="">
+                <div class="proname">
+                    <h3>Project Name</h3>
+                    <p>Apps</p>
+                </div>
+               
+            </div>
+              
+            <div class="project">
+                <img class="projectimg" src="./assests/graphic4.jpg" alt="">
+                <div class="proname">
+                    <h3>Project Name</h3>
+                    <p>Graphic</p>
+                </div>
+               
+            </div>
+        </div>
+        </div>
+
+        <div class="endbutton">
+              <button class="end">See more</button>  
+        </div>
+
+        <div class="contact" id="contact">
+               <h1>Contact</h1>
+
+
+               <div class="info">
+                <div class="infocontact1">
+    
+                    <input type="text" placeholder="Your Name*">
+                    <input type="text" placeholder="Your Email*">
+                  
+                </div>
+                <div class="infocontact2">
+    
+                     <input type="text" placeholder="Subject">
+                </div> 
+                <div class="infocontact3">
+    
+                     <textarea name="" id="">Massage*</textarea>
+                </div>
+                <div class="subbutton">
+                    <button class="but">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="finish">
+            <div class="footer">
+                <h3>Biobo <i class="fa-solid fa-copyright"></i> All Rights Reserved by MR7oda</h3>
+            </div>
+
+            <div class="logoo">
+
+                <div class="logoo1">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="logoo2">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="logoo3">
+                    <i class="fa-brands fa-behance"></i>
+                </div>
+                <div class="logoo4">
+                    <i class="fa-brands fa-pinterest"></i>
+                </div>
+                <div class="logoo5">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="logoo6">
+                    <i class="fa-brands fa-google-plus-g"></i>
+                </div>
+            </div>
+  
+        </div>
+
+        
+       
+      
+       
+     </div>
+
     </div>
     
     
