@@ -46,8 +46,12 @@ body{
     align-items: center;
     justify-content: space-evenly;
     color: black;
-    margin: auto;
-    
+    margin: auto;   
+}
+
+.menus a{
+
+    text-decoration: none;
 }
 
 li{
@@ -60,7 +64,7 @@ li{
 
 .subdiv{
     width: 100%;
-    height: 95%;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,7 +124,7 @@ li{
 
 .ab{
     width: 100%;
-    height: 20%;
+    height: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -582,6 +586,7 @@ li{
     justify-content: space-evenly;
     color: white;
 }
+
 .logoo1{
     width: 40px;
     height: 40px;
@@ -591,83 +596,14 @@ li{
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: 0.3s;
 }
 .logoo1:hover{
 
-    background-color: red;
-}
-.logoo2{
-    width: 40px;
-    height: 40px;
-    font-size: 30px;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-.logoo2:hover{
-
-    background-color: red;
-}
-.logoo3{
-    width: 40px;
-    height: 40px;
-    font-size: 30px;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-.logoo3:hover{
-
-    background-color: red;
-}
-.logoo4{
-    width: 40px;
-    height: 40px;
-    font-size: 30px;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-.logoo4:hover{
-
-    background-color: red;
-}
-.logoo5{
-
-    width: 40px;
-    height: 40px;
-    font-size: 30px;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.logoo5:hover{
-
-    background-color: red;
-}
-.logoo6{
-    width: 40px;
-    height: 40px;
-    font-size: 30px;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-
-}
-.logoo6:hover{
-
-    background-color: red;
+    background-color:white;
+    color: black;
 }
 
 
@@ -1397,8 +1333,11 @@ li{
         justify-content: space-evenly;
         color: black;
         margin: 0;
-    
         
+    }
+    .menus a{
+
+        text-decoration: none;
     }
     
     li{
